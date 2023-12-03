@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+    padding: 0
+}
+
+div.card{
+    min-width: 280px;
+    max-width: 320px;
+}
+
+div.card-header{
+    text-align: center;
+}

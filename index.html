@@ -7,21 +7,65 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header id="header">
-        <img src="assets/logo-edited.jpg" alt="Quorion and Cats' Company Logo" id="header-img" width="300px" id="header-img">
-        <nav id="nav-bar"><ul>
-            <a href="" class="nav link">Home</a>
-            <a href="" class="nav link">Offers</a>
-            <a href="" class="nav link">About Us</a>
-        </ul></nav>
+<body class="bg-dark text-light container">
+    <header id="header" class="container p-0">
+        <figure id="logo row" class="text-center">
+            <img class="" src="assets/logo-edited.jpg" alt="Quorion and Cats' Company Logo" id="header-img" width="300px" id="header-img">
+        </figure>
+        <div class="titles">
+            <h1 class="text-light bg-primary border border-1 border-light text-center font-monospace">Quo's Cat Spa</h1>
+        </div>       
+        <nav id="nav-bar" class="">
+            <ul class="row text-center gap-1">
+            <div class="col bg-primary border border-1 border-light"><a href="" class="nav-link link-light col">Home</a></div>
+            <div class="col bg-primary border border-1 border-light"><a href="" class="nav-link col">About Us</a></div>
+            <div class="col bg-primary border border-1 border-light"><a href="" class="nav-link col">Products</a></div>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/bP_GTuDao6c?si=aelnnX4MzX6vwRqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="video" allowfullscreen></iframe>
-        </div>
+    <main class="row">
+        <section id="about">
+            <article>
+                <h2 class="display-2">Feline Care Optimized</h2>
+                <p>At our company, we pride ourselves on crafting and delivering bespoke care packages that cater to every feline requirement. Whether you’re seeking fundamental care for your new kitten or desiring a lavish, royal pampering experience for your furry friend, we’ve got you covered. Our comprehensive range includes hygiene products, engaging toys, delectable treats, stylish apparel, comfortable furniture, and much more! Your cat’s happiness is our priority.</p>
+                <a href="" class="link-info">Check what we've got on store this month!</a>
+            </article>
+            <h2>Cat Grooming Basics</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/bP_GTuDao6c?si=aelnnX4MzX6vwRqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="video" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="products" class="container d-flex flex justify-content-evenly flex-wrap gap-2 gap-xl-4 justify-content-xl-center">
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/bronze-medal.png" alt="Bronze Medal" class="card-img-top">
+                        <h3 class="card-title">Bronze Kitten Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, necessitatibus quibusdam a doloribus at debitis unde quam, exercitationem fuga, vel amet! Vitae fugiat exercitationem pariatur, repellat inventore suscipit asperiores doloribus.</p>
+                </div>
+            </div>
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/silver-medal.png" alt="Silver Medal" class="card-img-top">
+                        <h3 class="card-title">Silver Cat Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eveniet recusandae reiciendis natus. Ducimus inventore labore odit, quis dolorum quam dicta facere officia magni vero praesentium, aut eveniet aliquam accusantium.</p>
+                </div>
+            </div>
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/gold-medal.png" alt="Golden Medal" class="card-img-top">
+                        <h3 class="card-title">Golden Feline Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis ut quam quos quas dolorem eius. Quaerat neque tempora veniam saepe reprehenderit quae veritatis nesciunt, harum quisquam distinctio, quidem explicabo.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="row">
         <form action="https://www.freecodecamp.com/email-submit" method="post">
             <label for="email">E-mail<input type="email" name="email" id="email" placeholder="enter your email here"></label>
             <button type="submit" id="submit">Send Me News</button>
@@ -29,3 +73,13 @@
     </footer>
 </body>
 </html>
+
+
+<!-- # ATTRIBUTING CORNER
+    
+    
+    <a href="https://www.flaticon.com/free-icons/bronze-medal" title="bronze medal icons">Bronze medal icons created by KSan Wapiti - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/silver-medal" title="silver medal icons">Silver medal icons created by KSan Wapiti - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/gold-medal" title="gold medal icons">Gold medal icons created by KSan Wapiti - Flaticon</a>
+
+-->
