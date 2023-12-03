@@ -6,8 +6,18 @@ ul{
 div.card{
     min-width: 280px;
     max-width: 320px;
+    transition: 0.25s ease-in;
+}
+
+div.card:hover{
+    transform: scale(1.05);
+    border: 1px solid cyan;
 }
 
 div.card-header{
     text-align: center;
+}
+
+figure{
+    max-width: fit-content;
 }
