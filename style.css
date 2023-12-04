@@ -65,3 +65,19 @@ ul li{
         font-size: 40px;
     }
 }
+
+/* about us section */
+
+.video-wrapper{
+    max-width: 768px;
+}
+
+/* footer and form  */
+
+footer{
+    max-width: 568px;
+}
+
+label input::placeholder{
+    color: white
+}

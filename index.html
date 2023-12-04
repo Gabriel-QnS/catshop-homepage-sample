@@ -28,18 +28,20 @@
         </div>
     </header>
     <main class="row">
-        <section id="about">
-            <article>
-                <h2 class="display-2">Feline caretaking, optimized</h2>
+
+        <section id="about" class="border-bottom border-5 border-info mb-2 p-2">
+            <article class="text-center">
+                <h2 class="display-2 text-center text-info">Feline caretaking: <u>optimized</u></h2>
                 <p>At our company, we pride ourselves on crafting and delivering bespoke care packages that cater to every feline requirement. Whether you’re seeking fundamental care for your new kitten or desiring a lavish, royal pampering experience for your furry friend, we’ve got you covered. Our comprehensive range includes hygiene products, engaging toys, delectable treats, stylish apparel, comfortable furniture, and much more! Your cat’s happiness is our priority.</p>
-                <a href="" class="link-info">Check what we've got on store this month!</a>
+                <div class="text-center"><a href="#products" class="link-info">Check what we've got on store this month!</a><p style="font-size: 50px;">&#128571;</p></div>
             </article>
-            <h2>Cat Grooming Basics</h2>
-            <div class="video-wrapper">
-                <!-- <iframe src="https://www.youtube.com/embed/bP_GTuDao6c?si=aelnnX4MzX6vwRqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="video" allowfullscreen></iframe> -->
+            <h3 class="display-3 text-info text-center">Cat Grooming Basics</h3>
+            <div class="container video-wrapper ratio ratio-4x3 m-auto">
+                <iframe class="m-auto" src="https://www.youtube.com/embed/bP_GTuDao6c?si=aelnnX4MzX6vwRqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="video" allowfullscreen></iframe>
             </div>
         </section>
-        <section id="products" class="container d-flex flex justify-content-evenly flex-wrap gap-2 gap-xl-4 justify-content-xl-center">
+
+        <section id="products" class="container d-flex flex justify-content-evenly flex-wrap gap-2 gap-xl-4 justify-content-xl-center border-bottom border-info border-5 pb-2">
             <div class="card col">
                 <div class="card-body">
                     <div class="card-header bg-info">
@@ -49,6 +51,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, necessitatibus quibusdam a doloribus at debitis unde quam, exercitationem fuga, vel amet! Vitae fugiat exercitationem pariatur, repellat inventore suscipit asperiores doloribus.</p>
                 </div>
             </div>
+
             <div class="card col">
                 <div class="card-body">
                     <div class="card-header bg-info">
@@ -58,6 +61,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eveniet recusandae reiciendis natus. Ducimus inventore labore odit, quis dolorum quam dicta facere officia magni vero praesentium, aut eveniet aliquam accusantium.</p>
                 </div>
             </div>
+
             <div class="card col">
                 <div class="card-body">
                     <div class="card-header bg-info">
@@ -67,14 +71,24 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis ut quam quos quas dolorem eius. Quaerat neque tempora veniam saepe reprehenderit quae veritatis nesciunt, harum quisquam distinctio, quidem explicabo.</p>
                 </div>
             </div>
+
         </section>
+
     </main>
-    <footer class="row">
-        <form action="https://www.freecodecamp.com/email-submit" method="post">
-            <label for="email">E-mail<input type="email" name="email" id="email" placeholder="enter your email here"></label>
-            <button type="submit" id="submit">Send Me News</button>
+
+    <footer class="m-auto p-2 d-flex flex-column">
+        <div class="forminfo">
+            <h3>Would you like to receive offers and promotions?</h3>
+            <p>Just 2 mails per month. We also hate spam &#9940;</p>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" class="form-control bg-info text-dark text-center fw-bold">
+            <label class="form-label" for="email">E-mail <br>
+                <input class="form-control" type="email" name="email" id="email" placeholder="marian@siamese.cat">
+            </label><br>
+            <button class="btn btn-dark" type="submit" id="submit">Send Me News</button>
         </form>
     </footer>
+
 </body>
 </html>
 
