@@ -52,7 +52,7 @@ h1.title{
 
 /* nav list items */
 
-ul li{
+nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,4 +80,12 @@ footer{
 
 label input::placeholder{
     color: white
+}
+
+/* dropdown menu */
+
+.dropdown-menu{
+    font-size: 16px;
+    max-width: 80vw;
+    overflow: scroll;
 }
