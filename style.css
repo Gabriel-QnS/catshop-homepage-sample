@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+:root{
+    --peralta: 'Peralta', serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("assets/Cats.jpeg");
+    background-size: cover;
+}
+ 
+
 ul{
     list-style-type: none;
     padding: 0
@@ -20,4 +36,32 @@ div.card-header{
 
 figure{
     max-width: fit-content;
+}
+
+img#header-img{
+ max-width: 100%;
+}
+
+header{
+    color: black;
+}
+
+h1.title{
+    font-family: var(--peralta) !important;
+}
+
+/* nav list items */
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    li.bg-info{
+        font-size: 40px;
+    }
 }
